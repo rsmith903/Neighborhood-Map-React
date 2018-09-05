@@ -1,7 +1,3 @@
-/*!
- * Font Awesome Free 5.0.6 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 (function () {
 'use strict';
 
@@ -103,10 +99,10 @@ function define(prefix, icons) {
   }
 
   /**
-   * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
-   * of new styles we needed to differentiate between them. Prefix `fa` is now an alias
-   * for `fas` so we'll easy the upgrade process for our users by automatically defining
-   * this as well.
+   * Font Awesome 4 used the prefix of `fa` for all icons.
+   * We have to show he difference between them. Prefix `fa` now stands for
+   * for `fas` so we'll easy the upgrade process for users by automatically defining
+   * this.
    */
   if (prefix === 'fas') {
     define('fa', icons);
@@ -552,10 +548,10 @@ function define(prefix, icons) {
   }
 
   /**
-   * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
-   * of new styles we needed to differentiate between them. Prefix `fa` is now an alias
-   * for `fas` so we'll easy the upgrade process for our users by automatically defining
-   * this as well.
+   * Font Awesome 4 used the prefix of `fa` for all icons.
+   * We have to show he difference between them. Prefix `fa` now stands for
+   * for `fas` so we'll easy the upgrade process for users by automatically defining
+   * this.
    */
   if (prefix === 'fas') {
     define('fa', icons);
@@ -787,10 +783,10 @@ function define(prefix, icons) {
   }
 
   /**
-   * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
-   * of new styles we needed to differentiate between them. Prefix `fa` is now an alias
-   * for `fas` so we'll easy the upgrade process for our users by automatically defining
-   * this as well.
+   * Font Awesome 4 used the prefix of `fa` for all icons.
+   * We have to show he difference between them. Prefix `fa` now stands for
+   * for `fas` so we'll easy the upgrade process for users by automatically defining
+   * this.
    */
   if (prefix === 'fas') {
     define('fa', icons);
@@ -2112,8 +2108,8 @@ var mutators = {
     var node = mutation[0];
     var abstract = mutation[1];
 
-    // If we already have a replaced node we do not want to continue nesting within it.
-    // Short-circuit to the standard replacement
+    // If we already have a replaced node we do not want to continue nesting in it.
+    // Short-circuit to the replacement standard
     if (~classArray(node).indexOf(config.replacementClass)) {
       return mutators.replace(mutation);
     }
@@ -2724,10 +2720,10 @@ function define(prefix, icons) {
   }
 
   /**
-   * Font Awesome 4 used the prefix of `fa` for all icons. With the introduction
-   * of new styles we needed to differentiate between them. Prefix `fa` is now an alias
-   * for `fas` so we'll easy the upgrade process for our users by automatically defining
-   * this as well.
+   * Font Awesome 4 used the prefix of `fa` for all icons.
+   * We have to show he difference between them. Prefix `fa` now stands for
+   * for `fas` so we'll easy the upgrade process for users by automatically defining
+   * this.
    */
   if (prefix === 'fas') {
     define('fa', icons);
@@ -3079,3 +3075,8 @@ Object.defineProperty(api, 'config', {
 bunker(bootstrap);
 
 }());
+
+/*!
+ * Font Awesome Free 5.0.6 by @fontawesome - http://fontawesome.com
+ * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
