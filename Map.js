@@ -34,7 +34,7 @@ export const MyMapComponent = compose(
                 position: {lat: 32.787830, lng: -96.804909},
             },
             {
-                name: 'Perry's Steakhouse and Grille',
+                name: 'Perrys Steakhouse and Grille',
                 position: {lat: 32.791115, lng: -96.803215},
             }
         ],
@@ -43,7 +43,7 @@ export const MyMapComponent = compose(
             {'Pecan Lodge': null},
             {'Velvet Taco': null},
             {'Meso Maya': null},
-            {'Perry's Stekhouse and Gille': null},
+            {'Perrys Steakhouse and Gille': null},
         ],
         markerOpen: false,
         sidebarVisible: false,
@@ -84,7 +84,7 @@ export const MyMapComponent = compose(
                 {'Pecan Lodge': null},
                 {'Velvet Taco': null},
                 {'Meso Maya': null},
-                {'Perry's Steakhouse and Grille': null},
+                {'Perrys Steakhouse and Grille': null},
             ],
         }),
     }),
